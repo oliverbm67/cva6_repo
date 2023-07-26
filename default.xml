@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-            <remote fetch="https://github.com/openhwgroup" name="github" />
+            <remote fetch="https://github.com/openhwgroup" name="openhwgroup" />
+            <remote fetch="https://github.com/pulp-platform" name="pulp" />
+            <remote fetch="https://github.com/lowRISC" name="lowRISC" />
+            <remote fetch="https://github.com/riscv" name="riscv" />
             <default revision="master"
                         remote="github"
                         sync-j="4"
                         sync-c="true" />
 
-    <project name="cva6"  path="cva6_design/cva6"  revision="decabeb3f7e1f7d9596c2266607b7baf08403a00" remote="github"/>
-    <project name="axi_mem_if" path="cva6_design/axi_mem_if" revision="master" remote="github"/>
-    <project name="common_cells" path="cva6_design/common_cells" revision="master" remote="github"/>
-    <project name="register_interface" path="cva6_design/register_interface" revision="master" remote="github"/>
-    <project name="apb_uart" path="cva6_design/apb_uart" revision="master" remote="github"/>
-    <project name="apb_node" path="cva6_design/apb_node" revision="master" remote="github"/>
-    <project name="axi2apb" path="cva6_design/axi2apb" revision="master" remote="github"/>
-    <project name="axi_slice" path="cva6_design/axi_slice" revision="master" remote="github"/>
-    <project name="ariane-ethernet" path="cva6_design/ariane-ethernet" revision="master" remote="github"/>
-    <project name="axi_riscv_atomics" path="cva6_design/axi_riscv_atomics" revision="master" remote="github"/>
-    <project name="riscv-dbg" path="cva6_design/riscv-dbg" revision="master" remote="github"/>
-    <project name="rv_plic" path="cva6_design/rv_plic" revision="master" remote="github"/>
-    <project name="apb_timer" path="cva6_design/apb_timer" revision="master" remote="github"/>
-    <project name="dromajo" path="cva6_design/dromajo" revision="master" remote="github"/>
-    <project name="common_verification" path="cva6_design/common_verification" revision="master" remote="github"/>
-    <project name="core-v-verif"  path="cva6_verif/core-v-verif"  revision="master" remote="github" sync-s="true"/>
-    <project name="riscv-tests"  path="cva6_verif/riscv-tests"  revision="master" remote="github" sync-s="true"/>
-    <project name="riscv-dv" path="cva6_verif/riscv-dv" revision="master" remote="github"/>
+    <project name="cva6"  path="cva6_design/cva6"  revision="decabeb3f7e1f7d9596c2266607b7baf08403a00" remote="openhwgroup"/>
+    <project name="axi_mem_if" path="cva6_design/axi_mem_if" revision="master" remote="pulp"/>
+    <project name="common_cells" path="cva6_design/common_cells" revision="master" remote="pulp"/>
+    <project name="register_interface" path="cva6_design/register_interface" revision="master" remote="pulp"/>
+    <project name="apb_uart" path="cva6_design/apb_uart" revision="master" remote="pulp"/>
+    <project name="apb_node" path="cva6_design/apb_node" revision="master" remote="pulp"/>
+    <project name="axi2apb" path="cva6_design/axi2apb" revision="master" remote="pulp"/>
+    <project name="axi_slice" path="cva6_design/axi_slice" revision="master" remote="pulp"/>
+    <project name="ariane-ethernet" path="cva6_design/ariane-ethernet" revision="master" remote="lowRISCV"/>
+    <project name="axi_riscv_atomics" path="cva6_design/axi_riscv_atomics" revision="master" remote="pulp"/>
+    <project name="riscv-dbg" path="cva6_design/riscv-dbg" revision="master" remote="pulp"/>
+    <project name="rv_plic" path="cva6_design/rv_plic" revision="master" remote="pulp"/>
+    <project name="apb_timer" path="cva6_design/apb_timer" revision="master" remote="pulp"/>
+    <project name="common_verification" path="cva6_verif/common_verification" revision="master" remote="pulp"/>
+    <project name="core-v-verif"  path="cva6_verif/core-v-verif"  revision="master" remote="openhwgroup" sync-s="true"/>
+    <project name="riscv-isa-sim" path="cva6_verif/riscv-dv" revision="master" remote="riscv"/>
 </manifest>
