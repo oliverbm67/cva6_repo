@@ -17,7 +17,7 @@
     <project name="apb_node" path="cva6_design/apb_node" revision="master" remote="pulp"/>
     <project name="axi2apb" path="cva6_design/axi2apb" revision="master" remote="pulp"/>
     <project name="axi_slice" path="cva6_design/axi_slice" revision="master" remote="pulp"/>
-    <project name="ariane-ethernet" path="cva6_design/ariane-ethernet" revision="master" remote="lowRISCV"/>
+    <project name="ariane-ethernet" path="cva6_design/ariane-ethernet" revision="master" remote="lowRISC"/>
     <project name="axi_riscv_atomics" path="cva6_design/axi_riscv_atomics" revision="master" remote="pulp"/>
     <project name="riscv-dbg" path="cva6_design/riscv-dbg" revision="master" remote="pulp"/>
     <project name="rv_plic" path="cva6_design/rv_plic" revision="master" remote="pulp"/>
