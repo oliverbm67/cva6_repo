@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-            <remote fetch=https://github.com/openhwgroup name="github" />
+            <remote fetch="https://github.com/openhwgroup" name="github" />
             <default revision="master"
                         remote="github"
                         sync-j="4"
