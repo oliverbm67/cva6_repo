@@ -5,7 +5,7 @@
             <remote fetch="https://github.com/lowRISC" name="lowRISC" />
             <remote fetch="https://github.com/riscv" name="riscv" />
             <default revision="master"
-                        remote="github"
+                        remote="openhwgroup"
                         sync-j="4"
                         sync-c="true" />
 
