@@ -8,7 +8,7 @@
             <remote fetch="https://github.com/oliverbm67" name="private" />
             <default revision="master"
                         remote="openhwgroup"
-                        sync-j="4"
+                        sync-j="8"
                         sync-c="true" />
 
     <project name="cva6"  path="cva6_design/cva6"  revision="decabeb3f7e1f7d9596c2266607b7baf08403a00" remote="openhwgroup"/>
@@ -25,8 +25,10 @@
     <project name="rv_plic" path="cva6_design/rv_plic" revision="master" remote="pulp"/>
     <project name="apb_timer" path="cva6_design/apb_timer" revision="master" remote="pulp"/>
     <project name="common_verification" path="cva6_verif/common_verification" revision="master" remote="pulp"/>
-    <project name="core-v-verif"  path="cva6_verif/core-v-verif"  revision="master" remote="openhwgroup" sync-s="true"/>
+    <project name="core-v-verif"  path="cva6_verif/core-v-verif"  revision="cva6/dev" remote="openhwgroup"/>
     <project name="riscv-isa-sim" path="cva6_verif/riscv-dv" revision="master" remote="riscv"/>
+    <project name="riscv-gnu-toolchain" path="cva6_verif/riscv-gnu-toolchain" revision="master" remote="riscv"/>
     <project name="riscv-tests" path="cva6_verif/riscv-tests" revision="master" remote="riscv-software"/>
+    <project name="riscv-pk" path="cva6_verif/riscv-pk" revision="master" remote="riscv-software"/>
     <project name="cva6_repo" path="cva6_repo" revision="master" remote="private"/>
 </manifest>
