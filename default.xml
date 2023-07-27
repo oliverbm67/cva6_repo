@@ -4,6 +4,7 @@
             <remote fetch="https://github.com/pulp-platform" name="pulp" />
             <remote fetch="https://github.com/lowRISC" name="lowRISC" />
             <remote fetch="https://github.com/riscv" name="riscv" />
+            <remote fetch="https://github.com/riscv-software-src" name="riscv-software" />
             <remote fetch="https://github.com/oliverbm67" name="private" />
             <default revision="master"
                         remote="openhwgroup"
@@ -26,5 +27,6 @@
     <project name="common_verification" path="cva6_verif/common_verification" revision="master" remote="pulp"/>
     <project name="core-v-verif"  path="cva6_verif/core-v-verif"  revision="master" remote="openhwgroup" sync-s="true"/>
     <project name="riscv-isa-sim" path="cva6_verif/riscv-dv" revision="master" remote="riscv"/>
+    <project name="riscv-tests" path="cva6_verif/riscv-tests" revision="master" remote="riscv-software"/>
     <project name="cva6_repo" path="cva6_repo" revision="master" remote="private"/>
 </manifest>
